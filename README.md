@@ -9,8 +9,10 @@ Steps to install and Setup:
 2. Open Command Prompt and navigate to the project direcotry using "cd <PROJECT_PATH>"
 3. Install virtualenv by running the below command
 	"pip install virtualenv"
-4. Activate the virtualenvironment by using below command.
+4. Create a virtualenv using below command.
+	"virtualenv plate"
+5. Activate the virtualenvironment by using below command.
 	"plate\Scripts\actiavte"
-5. Run "pip install -r requirements.txt"
-6. Run the below command to extract the Vehicle Numbers.
+6. Run "pip install -r requirements.txt"
+7. Run the below command to extract the Vehicle Numbers.
 	"python carnumber.py"
